@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tiago</title>
+</head>
+<body>
+        
+    <!-- header -->
+    <header id = "header" class = "vh-100 flex">
+        <div class = "container">
+            <div class = "header-content">
+                <h1>Eu sou um <br><span class = "typewrite" data-loop = "yes" data-speed = "100" data-delay = "2000" data-words = '["fotógrafo", "cinegrafista", "video editor"]'></span></h1>
+                <h3>Tiago </h3>
+                    <ul class = "social-links">
+                    <li>
+                        <a href = "#" class = "flex">
+                            <img src="img/facebook.png" alt="">
+                            <i class = "fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#" class = "flex">
+                            <img src="img/twitter.png" alt="">
+                            <i class = "fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "https://www.instagram.com/oithiagom/" class = "flex">
+                            <img src="img/instagram (1).png" alt="">
+                            <i class = "fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#" class = "flex">
+                            <img src="img/pinterest.png" alt="">
+                            <i class = "fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--===============================-->
+    <main>
+        <!--===============================-->
+        <section id = "about" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src = "img/contact-pic.jpg" alt = "">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Sobre mim</h2>
+                        </div>
+                        <p class = "lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, aliquid asperiores sequi enim consectetur ratione culpa amet non debitis sit numquam consequuntur corporis hic illum! Modi sit repellendus veritatis debitis!</p>
+                        <p class = "lead">We can checkout his recent works and experiences below. He considers photography as his passion more than profession.</p>
+                        <a href = "#work" class = "btn-down">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===============================-->
+        
+        <section id = "work" class = "vh-100 flex py-7">
+            <div class = "container">
+                <div class = "work-content">
+                    <div class = "title">
+                        <h2>O QUE EU ESTOU FAZENDO?</h2>
+                    </div>
+                    <ul class = "work-top grid">
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Trabalhamos de acordo com as diretrizes do (nome da empresa do Tiago) no que diz respeito ao gerenciamento de cores e manuseio de arquivos.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos quisquam eveniet beatae consequuntur accusamus fugiat voluptates ut, illo optio similique provident adipisci debitis quas, eos numquam libero, dicta praesentium possimus.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Trabalhamos com os termos e condições do Dupho, registrado no tribunal de Ohio com o número 08/2018.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Temos sempre equipamento de reserva à mão, também no local.</li>
+                    </ul>
+                    <a href = "#portfolio" class = "btn-down btn-down-white">
+                        <i class = "fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+       
+        <!--===============================-->
+
+        <section id = "portfolio" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>MEUS ÚLTIMOS TRABALHOS</h2>
+                        <a href = "#contact" class = "btn-down">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-1.jpg"></div>
+                        <div><img src = "images/port-2.jpg"></div>
+                        <div><img src = "images/port-3.jpg"></div>
+                        <div><img src = "images/port-4.jpg"></div>
+                        <div><img src = "images/port-5.jpg"></div>
+                        <div><img src = "images/port-6.jpg"></div>
+                        <div><img src = "images/port-7.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===============================-->
+
+        <section id = "contact" class = "py-7">
+            <div class = "container">
+                <div class = "contact-content flex">
+                    <div class = "contact-left">
+                        <div class="title">
+                            <h2>ENTRE EM CONTATO COMIGO</h2>
+                        </div>
+                        <p class = "lead"><i class = "fas fa-phone-alt"></i>Numero</p>
+                        <p class = "lead"><i class = "fas fa-envelope"></i> @gmail.com</p>
+                        <form action="https://formsubmit.co/leandroaugustomiranda761@gmail.com"
+                        method="POST">
+
+                            <input type = "text" class = "form-control" required placeholder="Seu nome completo ...">
+                            <input type = "email" class = "form-control" required placeholder="Seu E-mail">
+                            <textarea name="_captcha" placeholder="Esvreva aqui"></textarea>
+                            <input type = "submit" class = "btn-submit btn" value = "Enviar">
+                            <input type="hidden" name="_captcha" value="false">
+                        </form>
+                    </div>
+                    <div class = "contact-right">
+                        <img src = "images/contact-pic.jpg" alt = "contact image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===============================-->
+
+        <section id = "insta" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>instagram</h2>
+                        <a href = "#footer" class = "btn-down btn-down-white">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                    <div class = "insta-grid grid">
+                        <div><img src = "images/port-1.jpg"></div>
+                        <div><img src = "images/port-2.jpg"></div>
+                        <div><img src = "images/port-3.jpg"></div>
+                        <div><img src = "images/port-4.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===============================-->
+    </main>
+    <!--===============================-->
+    <footer id = "footer" class = "py-7">
+        <div class = "container">
+            <div class = "footer-content">
+                <div>
+                    <h3>TIAGO</h3>
+                    <div><img src = "img/insta-pic.jpg"></div>
+                </div>
+
+                <div>
+                    <h3>Links</h3>
+                    <ul class = "flex">
+                        <li><a href = "#about">Sobre mim</a></li>
+                        <li><a href = "#">trabalhar</a></li>
+                        <li><a href = "#contact">Contato</a></li>
+                        <li><a href = "https://www.instagram.com/oithiagom/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src = "tiago-javascript.js"></script>
+    <script>
+        class typeWriting{constructor(a){this.element=a,this.words=JSON.parse(a.getAttribute('data-words')),this.speed=parseInt(a.getAttribute('data-speed'),10)||100,this.delay=parseInt(a.getAttribute('data-delay'),10)||1e3,this.loop=a.getAttribute('data-loop'),this.char='',this.counter=0,this.isDeleting=!1,this.type()}type(){const a='yes'===this.loop?this.counter%this.words.length:this.counter,b=this.words[a];let c=this.speed;if(this.isDeleting?(c/=2,this.char=b.substring(0,this.char.length-1)):this.char=b.substring(0,this.char.length+1),this.element.innerHTML=`<span class="write">${this.char}</span><span class="blinking-cursor">|</span>`,!this.isDeleting&&this.char===b){if('no'===this.loop&&this.counter>=this.words.length-1)return;this.isDeleting=!0,c=this.delay}else this.isDeleting&&''===this.char&&(this.isDeleting=!1,this.counter++);setTimeout(()=>this.type(),c)}}document.addEventListener('DOMContentLoaded',init);function init(){document.querySelectorAll('.typewrite').forEach(a=>new typeWriting(a))
+    }
+    </script>
+</body>
+</html>
