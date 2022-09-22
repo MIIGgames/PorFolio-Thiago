@@ -172,6 +172,7 @@ h1, h2, h3{
 .work-bottom > div .icon img{
     width: 50px;
     margin: 0 auto 1.7rem auto;
+
 }
 /* portfolio */
 .portfolio-grid > div{
@@ -179,6 +180,11 @@ h1, h2, h3{
 }
 .portfolio-grid > div:hover{
     transform: scale(0.9);
+}
+
+.portfolio-grid div > img {
+    width: 100%;
+    background-size: cover;
 }
 
 /* contact */
